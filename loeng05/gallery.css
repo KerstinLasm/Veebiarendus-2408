@@ -1,0 +1,45 @@
+body{
+    background-color: darkred;
+}
+h1 {
+    text-align: center;
+}
+.pilt{
+    width: 90%;
+    border-width: 2px;
+    border-color: whitesmoke;
+    border-style: solid;
+    margin-top:0.5rem;
+   
+}
+img{
+    display: block;
+    width: 100%;
+}
+@media screen and (min-width: 480px) {
+    body {
+        background-color:darkolivegreen;
+    }
+    .pildid {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:space-evenly;
+    }
+    .pilt{
+        max-width: 40%;
+        display: block;
+    }
+}
+@media screen and (min-width:960px) {
+    body{
+        background-color: lightgrey
+    };
+    h1 {
+        color: lightcoral;
+    }
+    .pilt{
+        max-width:30%;
+        display: block;
+        
+    }
+}

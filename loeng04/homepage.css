@@ -1,0 +1,53 @@
+html{
+    font-size: 16pxrem;
+}
+body{
+    background-color: darkolivegreen;
+    display:flex;
+    justify-content: center;
+}
+
+.container{
+    background-color: beige;
+    width: 90%;
+    max-width: 1100px;
+}
+header{
+    background-color: lightsalmon;
+    width: 100%;
+
+}
+header h1{
+    line-height: 6rem;
+    text-align: center;
+    margin: 0;
+}
+.main-container{
+    display:flex;
+    min-height: 30rem;
+    background-color: bisque;
+}
+main{
+    min-width: 20rem;
+    background-color: bisque;
+    flex-grow: 1;
+}
+aside{
+    width: 10rem;
+    background-color: azure;
+    flex-grow: 0;
+}
+footer{
+    background-color: lightsalmon;
+    min-height: 3rem;
+    display: flex;
+    justify-content:space-around;
+}
+footer div{
+    width: 30%;
+    max-width: 30%;
+}
+.lingid{
+    display:flex
+    flex-direction:column;
+}

@@ -1,0 +1,91 @@
+html{
+    font-size: 16pxrem;
+}
+body{
+    background-color: #F5F5F5;
+    display:flex;
+    justify-content: center;
+}
+
+.container{
+    background-color: #F5F5F5;
+    width: 90%;
+    max-width: 2800px;
+}
+header{
+    background-color:#C5E3FB;
+    width: 100%;
+
+}
+header h1{
+    line-height: 6rem;
+    text-align: center;
+    margin: 0;
+}
+.peamenuu {
+    list-style-type: none;
+    margin: 0px;
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+    background-color: #C5E3FB;
+    display:flex;
+    justify-content: center;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li  {
+    display: block;
+    color: #FE7B0E;
+    text-align: center;
+    padding: 0px 20px;
+    text-decoration: none;
+  }
+  a {
+    color: #FE7B0E;
+  }
+.main-container{
+    display:flex;
+    min-height: 30rem;
+    background-color: #F5F5F5;
+    padding-left: 3%;
+}
+main{
+    min-width: 20rem;
+    background-color:#F5F5F5;
+    flex-grow: 10;
+    padding-right: 3%;
+}
+aside{
+    width: 20rem;
+    background-color: #FE7B0E;
+    flex-grow: 10;
+}
+footer{
+    background-color: lightsalmon;
+    min-height: 3rem;
+    display: flex;
+    justify-content:space-around;
+}
+footer div{
+    width: 30%;
+    max-width: 30%;
+}
+.lingid{
+    display:flex;
+    flex-direction:column;
+}
+main img {
+    display: block;
+    width: 30rem;
+  }
+aside img {
+    display: block;
+    width: 100%;
+}
+menu {
+    padding-inline-start: 0px;
+}

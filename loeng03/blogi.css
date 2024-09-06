@@ -33,3 +33,10 @@ img {
     margin-right: auto;
     width: 40%;
   }
+  .post{
+    padding: 2rem;
+    margin-bottom: 1rem;
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(221, 173, 210);
+    border-bottom-style:dotted;
+  }
