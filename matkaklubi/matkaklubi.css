@@ -1,9 +1,11 @@
 html {
     font-size: 16px;
 }
+
 body {
     font-family: "Montserrat", sans-serif;
 }
+
 .header-container {
     background-image: url(./assets/Hills.png);
     width: 100%;
@@ -12,20 +14,105 @@ body {
     background-position: center;
 
 }
+
 .logo-area {
     display: flex;
 }
-.logo-image img{
+
+.logo-image img {
     display: block;
-    width: 4rem;
-    height: 4rem;
 }
-.logo-name{
+
+.logo-name {
     width: 9rem;
-    font-size: 2.0625rem;
+    font-size: 2.063rem;
     font-weight: 800;
     letter-spacing: 0px;
     color: #0B0B0B;
     opacity: 1;
-    line-height: 2.1rem;
+    line-height: 2.188rem;
+}
+
+li {
+    float: right;
+}
+
+li {
+    font-weight: 700;
+    font-size: 16.67px;
+    display: flex;
+    text-align: right;
+    font-variant-caps;
+    padding: 0px 20px;
+    text-decoration: none;
+    text-align: left;
+    letter-spacing: 0.167rem;
+    opacity: 1;
+    text-transform: uppercase;
+}
+
+.peamenuu {
+    text-align: left;
+}
+.pealkiri-kastid h2{
+    font-size: 2.4731rem;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.pohi-varv {
+    color: #0B0B0B;
+}
+.pealkiri-kastid h1 {
+    font-size: 4.649rem;
+    font-weight: 800;
+    text-transform: uppercase ;
+}
+.pealkiri-kastid h3 {
+    font-size: 1.301rem;
+    font-weight: 800;
+    text-transform: uppercase ;
+}
+.pohi-varv {
+    color: #0B0B0B;
+}
+.rida{
+    display: flex;
+    justify-content: space-between;
+}
+.liblikas1{
+    width:4.7rem;
+    height: 3.75rem;
+    margin-top: -3.75rem;
+    margin-left: auto;
+}
+@media screen and (min-width: 480px) {
+    .menu-valikud{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:right;
+        align-items: center;
+    }
+    .peamenuu{
+        max-width: 40%;
+    }
+}
+@media screen and (min-width:992px) {  
+    .peamenuu{
+        max-width:100%;
+        justify-items:right;
+    }
+}
+.pealkiri-kastid {
+    padding-top: 2rem;
+    letter-spacing: 0px;
+    color: black;
+}
+@media screen and (min-width: 992px) {
+    .pealkiri-kastid{
+        padding-top: 14.44rem;    
+    }
+   
+}
+.pohi-varv {
+    color: #0B0B0B;
 }
