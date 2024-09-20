@@ -1,2 +1,3 @@
 let varv
-prompt("Mis on sinu lemmikvärv?")
+varv = prompt("Mis on sinu lemmikvarv?")
+alert("Tore, mulle meeldib ka " + varv)

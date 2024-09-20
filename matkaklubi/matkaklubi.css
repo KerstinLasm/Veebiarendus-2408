@@ -118,10 +118,28 @@ li {
     text-decoration: none;
     color: white;
   }
+
+  .pealkiri-pilt .matkanaine{
+    width: 750px;
+    height: 750px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: -400px;
+  }
+  .pealkiri-pilt .vari {
+    width: 750px;
+    height: 87px;
+    margin-top: -40px;
+    margin-right: -152px;
+
+  }
   .cta:hover{
 background-color: lightblue;
   }
-
+.pealkiri-pilt {
+    overflow: hidden;
+    margin-right: -100px;
+}
 
 
 @media screen and (min-width: 480px) {
@@ -155,3 +173,7 @@ background-color: lightblue;
 .pohi-varv {
     color: #0B0B0B;
 }
+@media screen and (min-width:1200px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl{
+    max-width: 95%;
+} }
